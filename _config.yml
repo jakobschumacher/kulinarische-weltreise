@@ -9,5 +9,6 @@ paginate: 5                                # Number of posts per page for pagina
 paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, /page3
 
 theme: jekyll-theme-minimal
-favicon: favicon.ico
+favicon: /favicon.ico
+
 
