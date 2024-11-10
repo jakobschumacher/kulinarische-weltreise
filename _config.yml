@@ -11,4 +11,7 @@ paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, 
 theme: jekyll-theme-minimal
 favicon: /favicon.ico
 
+show_github_link: false
+
+
 
