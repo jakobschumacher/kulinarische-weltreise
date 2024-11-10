@@ -1,0 +1,48 @@
+---
+layout: default
+title: Pad Thai mit Gemüse
+---
+
+# Pad Thai mit Gemüse
+
+**Geschichte**
+
+Pad Thai ist eines der bekanntesten Gerichte Thailands und hat eine interessante Geschichte, die eng mit der nationalen Identität des Landes verbunden ist. In den 1930er Jahren, unter der Regierung von Premierminister Plaek Phibunsongkhram, wurde Pad Thai als Teil einer Kampagne zur Förderung des Nationalismus und der Wirtschaft eingeführt.
+
+Zu dieser Zeit litt Thailand unter einer Reis-Knappheit. Die Regierung förderte den Verzehr von Reisnudeln anstelle von Reis, um den Verbrauch zu reduzieren. Pad Thai wurde als nationales Gericht propagiert und sollte die Einheit des Landes stärken. Es wurde schnell populär und zu einem Symbol der thailändischen Küche.
+
+Das Gericht selbst ist ein harmonisches Zusammenspiel der vier Grundgeschmacksrichtungen der thailändischen Küche: süß, sauer, salzig und scharf. Die Verwendung von Tamarinde für die Säure, Palmzucker für die Süße, Fischsauce für die Salzigkeit und Chili für die Schärfe macht Pad Thai zu einem Geschmackserlebnis.
+
+Traditionell wird Pad Thai mit Garnelen oder Hühnchen zubereitet, aber die Gemüsevariante ist ebenso beliebt und spiegelt die Anpassungsfähigkeit des Gerichts wider. Die Zugabe von Mungbohnensprossen, Karotten und Frühlingszwiebeln macht es zu einer leichten und dennoch sättigenden Mahlzeit.
+
+Pad Thai ist nicht nur in Thailand, sondern weltweit beliebt. Es ist ein Beispiel dafür, wie ein Gericht die Kultur und Geschichte eines Landes repräsentieren kann und gleichzeitig Menschen auf der ganzen Welt verbindet.
+
+**Zutaten**
+
+- 200 g Reisnudeln
+- 100 g Mungbohnensprossen
+- 2 Karotten
+- 2 Frühlingszwiebeln
+- 2 Eier
+- 2 EL Sojasauce
+- 2 EL Limettensaft
+- 1 EL brauner Zucker
+- 2 Knoblauchzehen
+- 1 rote Chili (optional)
+- Gehackte Erdnüsse zum Garnieren
+- Öl zum Braten
+
+**Anleitung**
+
+1. Reisnudeln nach Packungsanweisung einweichen oder kochen.
+2. Karotten in dünne Streifen schneiden, Frühlingszwiebeln in Ringe schneiden, Knoblauch und Chili fein hacken.
+3. In einer Pfanne Öl erhitzen. Knoblauch und Chili anbraten.
+4. Karotten und die weißen Teile der Frühlingszwiebeln hinzufügen und kurz anbraten.
+5. Nudeln, Sojasauce, Limettensaft und Zucker hinzufügen. Alles gut vermischen.
+6. In der Pfanne Platz schaffen, Eier hineinschlagen und rühren, bis sie gestockt sind.
+7. Mungbohnensprossen und grüne Teile der Frühlingszwiebeln hinzufügen. Kurz mitbraten.
+8. Mit gehackten Erdnüssen bestreuen und servieren.
+
+---
+
+[Zurück zur Startseite](index.md)
