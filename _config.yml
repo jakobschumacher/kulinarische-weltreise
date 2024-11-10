@@ -1,3 +1,14 @@
+title: "Kulinarische Weltreise"            # Title of your site
+description: "Eine kulinarische Weltreise. Ein Gericht für jede Woche."
+url: "https://jakobschumacher.github.io"      # The base URL for your site
+baseurl: "/kulinarische-weltreise"         # Used if your site is in a subdirectory
+lang: "de-DE"                              # Sets the language of the site
+author: "Jakob Schumacher"
+github_username: "jakobschumacher"
+permalink: /:categories/:title/            # Example: /category/title/
+paginate: 5                                # Number of posts per page for pagination
+paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, /page3
+
 theme: jekyll-theme-minimal
 favicon: favicon.ico
 
