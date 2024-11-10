@@ -5,7 +5,6 @@ baseurl: "/kulinarische-weltreise"         # Used if your site is in a subdirect
 lang: "de-DE"                              # Sets the language of the site
 author: "Jakob Schumacher"
 github_username: "jakobschumacher"
-permalink: /:categories/:title/            # Example: /category/title/
 paginate: 5                                # Number of posts per page for pagination
 paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, /page3
 
