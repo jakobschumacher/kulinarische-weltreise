@@ -36,6 +36,9 @@ Der Couscous ist das traditionelle Freitagsgericht in Marokko, das nach dem geme
 5. Weitere 10 Minuten köcheln lassen, bis das Gemüse weich ist.
 6. Mit Couscous servieren und mit Petersilie garnieren.
 
+
+## Herkunft
+[Ursprung auf der Karte anzeigen](map.html#Marokkanischer-Gemüsecouscous)
 ---
 
 [Zurück zur Startseite](index.md)
