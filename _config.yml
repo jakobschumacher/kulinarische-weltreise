@@ -12,6 +12,12 @@ github_username: "jakobschumacher"
 paginate: 5                                # Number of posts per page for pagination
 paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, /page3
 
+
+# GitHub settings
+github:
+  is_project_page: false  # Set to false to remove "View the Project on GitHub" link
+
+
 theme: jekyll-theme-minimal
 favicon: /favicon.ico
 logo: /logo.webp
