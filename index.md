@@ -3,8 +3,6 @@ layout: default
 title: Kulinarische Weltreise
 ---
 
-![Logo der Kulinarischen Weltreise](logo.webp)
-
 # Kulinarische Weltreise
 
 Willkommen zu unserer kulinarischen Weltreise! Jede Woche probieren wir ein neues Gericht aus einer anderen Region der Welt aus.
