@@ -10,6 +10,22 @@
       width: 100%;
     }
   </style>
+  <script>
+  // Funktion zur Hervorhebung des Markers basierend auf dem URL-Anker
+  function highlightMarker() {
+    const recipeName = decodeURIComponent(window.location.hash.substring(1));
+    const recipe = recipes.find(r => r.name === recipeName);
+    if (recipe) {
+      const marker = L.marker(recipe.coordinates).addTo(map);
+      marker.bindPopup(`<b>${recipe.name}</b><br>${recipe.location}<br><a href="${recipe.link}">Rezept ansehen</a>`).openPopup();
+      map.setView(recipe.coordinates, 5); // Zoomt auf das Rezept
+    }
+  }
+
+  // Rufe die Funktion beim Laden der Seite auf
+  window.onload = highlightMarker;
+</script>
+
 </head>
 <body>
   <h1>Kulinarische Weltreise – Ursprungsorte der Gerichte</h1>
