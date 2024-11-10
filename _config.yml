@@ -14,4 +14,8 @@ favicon: /favicon.ico
 show_github_link: false
 
 
+# Add custom CSS
+custom_css: /assets/styles.css
+
+
 
