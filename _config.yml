@@ -10,7 +10,7 @@ paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, 
 
 theme: jekyll-theme-minimal
 favicon: /favicon.ico
-logo: /favicon-32x32.png
+logo: /kulinarische-weltreise.png
 
 
 # Add custom CSS
