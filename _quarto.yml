@@ -1,0 +1,50 @@
+project:
+  type: website
+
+lang: "de-DE"
+
+  
+website:
+  title: "Kulinarische Weltreise"
+  description: "Eine kulinarische Weltreise. Ein Gericht für jede Woche."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Rezepte"
+        menu:
+          - text: Shakshuka
+            href: shakshuka.qmd
+          - text: Griechischer Salat mit gegrilltem Hähnchen
+            href: griechischer-salat-mit-gegrilltem-haehnchen.qmd
+          - text: Indisches Dal mit Reis
+            href: indisches-dal-mit-reis.qmd
+          - text: Tapas und Tortilla
+            href: tapas.qmd
+          - text: Bobotie
+            href: bobotie.qmd
+          - text: Marokkanischer Gemüsecouscous
+            href: marokkanischer-gemuesecouscous.qmd
+          - text: Hähnchen-Fajitas
+            href: haehnchen-fajitas.qmd
+          - text: Pad Thai mit Gemüse
+            href: pad-thai-mit-gemuese.qmd
+          - text: Sushi-Bowl
+            href: sushi-bowl.qmd
+          - text: Bibimbap
+            href: bibimbap.qmd
+          - text: Karibisches Jerk-Hähnchen mit Reis und Bohnen
+            href: karibisches-jerk-haehnchen.qmd
+          - text: Ratatouille
+            href: ratatouille.qmd
+          - text: Cevapcici mit Ajvar und Fladenbrot
+            href: cevapcici.qmd
+          - text: Süßkartoffel- und Kichererbsen-Curry
+            href: suesskartoffel-kichererbsen-curry.qmd
+
+
+format:
+  html:
+    theme:
+      light: flatly # You can replace this with a Quarto-compatible theme.
+
