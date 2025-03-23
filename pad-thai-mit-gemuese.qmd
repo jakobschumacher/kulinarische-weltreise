@@ -1,8 +1,3 @@
----
-layout: default
-title: Pad Thai mit Gemüse
----
-
 # Pad Thai mit Gemüse
 
 **Geschichte**
@@ -43,6 +38,4 @@ Pad Thai ist nicht nur in Thailand, sondern weltweit beliebt. Es ist ein Beispie
 7. Mungbohnensprossen und grüne Teile der Frühlingszwiebeln hinzufügen. Kurz mitbraten.
 8. Mit gehackten Erdnüssen bestreuen und servieren.
 
----
 
-[Zurück zur Startseite](index.md)

@@ -1,8 +1,3 @@
----
-layout: default
-title: Ratatouille
----
-
 # Ratatouille
 
 **Geschichte**
@@ -40,6 +35,3 @@ Ratatouille kann heiß oder kalt serviert werden und passt hervorragend zu Brot,
 6. Bei niedriger Hitze etwa 20 Minuten köcheln lassen, bis das Gemüse weich ist.
 7. Warm servieren, idealerweise mit Brot oder Reis.
 
----
-
-[Zurück zur Startseite](index.md)

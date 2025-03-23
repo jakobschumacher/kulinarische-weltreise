@@ -1,8 +1,3 @@
----
-layout: default
-title: Hähnchen-Fajitas
----
-
 # Hähnchen-Fajitas
 
 **Geschichte**
@@ -41,6 +36,4 @@ Die Hähnchen-Fajitas sind eine moderne Variante, die leichter und schneller zuz
 7. Tortillas nach Packungsanweisung erwärmen.
 8. Hähnchen-Gemüse-Mischung in den Tortillas servieren, optional mit Sauerrahm, Guacamole und Käse.
 
----
 
-[Zurück zur Startseite](index.md)

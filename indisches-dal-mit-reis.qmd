@@ -1,8 +1,3 @@
----
-layout: default
-title: Indisches Dal mit Reis
----
-
 # Indisches Dal mit Reis
 
 **Geschichte**
@@ -42,6 +37,4 @@ Dal ist nicht nur ein kulinarisches Erlebnis, sondern auch ein soziales. Es wird
 8. Währenddessen Reis nach Packungsanweisung kochen.
 9. Dal mit Reis servieren und mit frischem Koriander garnieren.
 
----
 
-[Zurück zur Startseite](index.md)

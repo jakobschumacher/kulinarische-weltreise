@@ -1,9 +1,3 @@
----
-layout: default
-title: Shakshuka
-nav-order: 1
----
-
 # Shakshuka
 
 **Geschichte**
@@ -42,6 +36,3 @@ Ein weiterer interessanter Aspekt ist die Gemeinschaft, die Shakshuka fördert. 
 7. Pfanne abdecken und die Eier für etwa 5-7 Minuten pochieren, bis das Eiweiß fest ist.
 8. Mit frischen Kräutern bestreuen und warm servieren.
 
----
-
-[Zurück zur Startseite](index.md)

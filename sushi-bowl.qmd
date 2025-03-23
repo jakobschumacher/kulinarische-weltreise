@@ -1,8 +1,3 @@
----
-layout: default
-title: Sushi-Bowl
----
-
 # Sushi-Bowl
 
 **Geschichte**
@@ -38,6 +33,3 @@ Die Anpassungsfähigkeit der Sushi-Bowl erlaubt es, kreativ zu sein und verschie
 4. Den Reis in Schüsseln verteilen. Gemüse und optional Räucherlachs darauf anrichten.
 5. Mit Sesam bestreuen und mit Sojasauce servieren.
 
----
-
-[Zurück zur Startseite](index.md)

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jakob Schumacher">
 
-<title>Shakshuka – Kulinarische Weltreise</title>
+<title>pad-thai-mit-gemuese – Kulinarische Weltreise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,11 +42,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4735990c9a291889faddfe1de67c5ae7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -70,103 +72,128 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.webp" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Kulinarische Weltreise</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-rezepte" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Rezepte</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-rezepte">    
-        <li>
-    <a class="dropdown-item" href="./shakshuka.html">
- <span class="dropdown-text">Shakshuka</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./griechischer-salat-mit-gegrilltem-haehnchen.html">
- <span class="dropdown-text">Griechischer Salat mit gegrilltem Hähnchen</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./indisches-dal-mit-reis.html">
- <span class="dropdown-text">Indisches Dal mit Reis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tapas.html">
- <span class="dropdown-text">Tapas und Tortilla</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./bobotie.html">
- <span class="dropdown-text">Bobotie</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./marokkanischer-gemuesecouscous.html">
- <span class="dropdown-text">Marokkanischer Gemüsecouscous</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./haehnchen-fajitas.html">
- <span class="dropdown-text">Hähnchen-Fajitas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./pad-thai-mit-gemuese.html">
- <span class="dropdown-text">Pad Thai mit Gemüse</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./sushi-bowl.html">
- <span class="dropdown-text">Sushi-Bowl</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./bibimbap.html">
- <span class="dropdown-text">Bibimbap</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./karibisches-jerk-haehnchen.html">
- <span class="dropdown-text">Karibisches Jerk-Hähnchen mit Reis und Bohnen</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./ratatouille.html">
- <span class="dropdown-text">Ratatouille</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cevapcici.html">
- <span class="dropdown-text">Cevapcici mit Ajvar und Fladenbrot</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./suesskartoffel-kichererbsen-curry.html">
- <span class="dropdown-text">Süßkartoffel- und Kichererbsen-Curry</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pad-thai-mit-gemuese.html">Pad Thai mit Gemüse</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Kulinarische Weltreise</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./shakshuka.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Shakshuka</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./griechischer-salat-mit-gegrilltem-haehnchen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Griechischer Salat mit gegrilltem Hähnchen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./indisches-dal-mit-reis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indisches Dal mit Reis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tapas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tapas und Tortilla</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bobotie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bobotie</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./marokkanischer-gemuesecouscous.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Marokkanischer Gemüsecouscous</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./haehnchen-fajitas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hähnchen-Fajitas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pad-thai-mit-gemuese.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Pad Thai mit Gemüse</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sushi-bowl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sushi-Bowl</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibimbap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibimbap</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./karibisches-jerk-haehnchen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Karibisches Jerk-Hähnchen mit Reis und Bohnen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ratatouille.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ratatouille</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cevapcici.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cevapcici mit Ajvar und Fladenbrot</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./suesskartoffel-kichererbsen-curry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Süßkartoffel- und Kichererbsen-Curry</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -174,14 +201,25 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shakshuka</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jakob Schumacher </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23. März 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -191,40 +229,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="shakshuka" class="level1">
-<h1>Shakshuka</h1>
+<section id="pad-thai-mit-gemüse" class="level1">
+<h1>Pad Thai mit Gemüse</h1>
 <p><strong>Geschichte</strong></p>
-<p>Shakshuka, ein Gericht mit Wurzeln in Nordafrika und dem Nahen Osten, hat eine faszinierende Reise durch die Geschichte hinter sich. Der Name “Shakshuka” leitet sich vom arabischen Wort für “Mischung” ab, was die Essenz dieses Gerichts perfekt einfängt: eine harmonische Mischung aus einfachen Zutaten, die zusammen ein kulinarisches Meisterwerk ergeben.</p>
-<p>Ursprünglich soll Shakshuka in den Ländern des Maghreb, insbesondere in Tunesien, entstanden sein. Mit der Migration nordafrikanischer Juden im 20. Jahrhundert fand das Gericht seinen Weg nach Israel, wo es schnell zu einem nationalen Favoriten wurde. Heute ist Shakshuka in vielen Ländern des Nahen Ostens und darüber hinaus beliebt.</p>
-<p>Das Gericht besteht aus pochierten Eiern in einer würzigen Tomaten-Paprika-Sauce. Es ist ein Paradebeispiel dafür, wie einfache Zutaten zu etwas Besonderem werden können. In vielen Kulturen wird Shakshuka zum Frühstück serviert, doch es eignet sich ebenso gut als Mittag- oder Abendessen.</p>
-<p>Historisch gesehen spiegelt Shakshuka die Notwendigkeit wider, aus bescheidenen Zutaten nahrhafte und schmackhafte Mahlzeiten zu kreieren. Tomaten und Paprika, die Hauptzutaten, wurden im 16. Jahrhundert aus der Neuen Welt nach Europa und in den Nahen Osten eingeführt. Ihre Integration in lokale Küchen revolutionierte die Essgewohnheiten und führte zu neuen Gerichten wie der Shakshuka.</p>
-<p>Ein weiterer interessanter Aspekt ist die Gemeinschaft, die Shakshuka fördert. Oft wird es in einer großen Pfanne zubereitet und direkt aus dieser gemeinsam gegessen, was das soziale Miteinander stärkt. Es ist nicht ungewöhnlich, dass Familien und Freunde sich um die Pfanne versammeln, um Brotstücke in die köstliche Sauce zu tunken.</p>
+<p>Pad Thai ist eines der bekanntesten Gerichte Thailands und hat eine interessante Geschichte, die eng mit der nationalen Identität des Landes verbunden ist. In den 1930er Jahren, unter der Regierung von Premierminister Plaek Phibunsongkhram, wurde Pad Thai als Teil einer Kampagne zur Förderung des Nationalismus und der Wirtschaft eingeführt.</p>
+<p>Zu dieser Zeit litt Thailand unter einer Reis-Knappheit. Die Regierung förderte den Verzehr von Reisnudeln anstelle von Reis, um den Verbrauch zu reduzieren. Pad Thai wurde als nationales Gericht propagiert und sollte die Einheit des Landes stärken. Es wurde schnell populär und zu einem Symbol der thailändischen Küche.</p>
+<p>Das Gericht selbst ist ein harmonisches Zusammenspiel der vier Grundgeschmacksrichtungen der thailändischen Küche: süß, sauer, salzig und scharf. Die Verwendung von Tamarinde für die Säure, Palmzucker für die Süße, Fischsauce für die Salzigkeit und Chili für die Schärfe macht Pad Thai zu einem Geschmackserlebnis.</p>
+<p>Traditionell wird Pad Thai mit Garnelen oder Hühnchen zubereitet, aber die Gemüsevariante ist ebenso beliebt und spiegelt die Anpassungsfähigkeit des Gerichts wider. Die Zugabe von Mungbohnensprossen, Karotten und Frühlingszwiebeln macht es zu einer leichten und dennoch sättigenden Mahlzeit.</p>
+<p>Pad Thai ist nicht nur in Thailand, sondern weltweit beliebt. Es ist ein Beispiel dafür, wie ein Gericht die Kultur und Geschichte eines Landes repräsentieren kann und gleichzeitig Menschen auf der ganzen Welt verbindet.</p>
 <p><strong>Zutaten</strong></p>
 <ul>
-<li>4 Eier</li>
-<li>1 Dose gehackte Tomaten</li>
-<li>1 rote Paprika</li>
-<li>1 Zwiebel</li>
+<li>200 g Reisnudeln</li>
+<li>100 g Mungbohnensprossen</li>
+<li>2 Karotten</li>
+<li>2 Frühlingszwiebeln</li>
+<li>2 Eier</li>
+<li>2 EL Sojasauce</li>
+<li>2 EL Limettensaft</li>
+<li>1 EL brauner Zucker</li>
 <li>2 Knoblauchzehen</li>
-<li>1 TL Paprikapulver</li>
-<li>1/2 TL Kreuzkümmel</li>
-<li>Salz und Pfeffer nach Geschmack</li>
-<li>Olivenöl</li>
-<li>Frische Petersilie oder Koriander zum Garnieren</li>
+<li>1 rote Chili (optional)</li>
+<li>Gehackte Erdnüsse zum Garnieren</li>
+<li>Öl zum Braten</li>
 </ul>
 <p><strong>Anleitung</strong></p>
 <ol type="1">
-<li>Zwiebel, Knoblauch und Paprika fein hacken.</li>
-<li>In einer großen Pfanne mit Olivenöl Zwiebel und Knoblauch anbraten, bis sie weich sind.</li>
-<li>Paprika hinzufügen und weitere 5 Minuten anbraten.</li>
-<li>Gehackte Tomaten, Paprikapulver und Kreuzkümmel hinzufügen. Mit Salz und Pfeffer abschmecken.</li>
-<li>Sauce bei mittlerer Hitze etwa 10 Minuten köcheln lassen, bis sie leicht eindickt.</li>
-<li>Mit einem Löffel Vertiefungen in die Sauce machen und die Eier vorsichtig hineingleiten lassen.</li>
-<li>Pfanne abdecken und die Eier für etwa 5-7 Minuten pochieren, bis das Eiweiß fest ist.</li>
-<li>Mit frischen Kräutern bestreuen und warm servieren.</li>
+<li>Reisnudeln nach Packungsanweisung einweichen oder kochen.</li>
+<li>Karotten in dünne Streifen schneiden, Frühlingszwiebeln in Ringe schneiden, Knoblauch und Chili fein hacken.</li>
+<li>In einer Pfanne Öl erhitzen. Knoblauch und Chili anbraten.</li>
+<li>Karotten und die weißen Teile der Frühlingszwiebeln hinzufügen und kurz anbraten.</li>
+<li>Nudeln, Sojasauce, Limettensaft und Zucker hinzufügen. Alles gut vermischen.</li>
+<li>In der Pfanne Platz schaffen, Eier hineinschlagen und rühren, bis sie gestockt sind.</li>
+<li>Mungbohnensprossen und grüne Teile der Frühlingszwiebeln hinzufügen. Kurz mitbraten.</li>
+<li>Mit gehackten Erdnüssen bestreuen und servieren.</li>
 </ol>
-<hr>
-<p><a href="index.md">Zurück zur Startseite</a></p>
 
 
 </section>

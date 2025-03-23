@@ -1,8 +1,3 @@
----
-layout: default
-title: Karibisches Jerk-Hähnchen mit Reis und Bohnen
----
-
 # Karibisches Jerk-Hähnchen mit Reis und Bohnen
 
 **Geschichte**
@@ -40,6 +35,3 @@ Das Jerk-Hähnchen ist heute ein integraler Bestandteil der jamaikanischen Kultu
 5. Schwarze Bohnen abgießen, abspülen und zum Reis hinzufügen. Kurz erhitzen.
 6. Hähnchen mit Reis und Bohnen servieren.
 
----
-
-[Zurück zur Startseite](index.md)

@@ -41,7 +41,3 @@ Bibimbap ist mehr als nur ein Gericht; es ist ein kulturelles Erlebnis. Es wird 
 5. Eier als Spiegeleier braten.
 6. Reis in Schüsseln verteilen. Gemüse darauf anrichten. Ei darauflegen.
 7. Mit Gochujang und Sesamsamen garnieren. Vor dem Essen alles vermischen.
-
----
-
-[Zurück zur Startseite](index.md)
