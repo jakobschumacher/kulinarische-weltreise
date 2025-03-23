@@ -1,25 +1,16 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme 
 
-title: "Kulinarische Weltreise"            # Title of your site
+title: "Kulinarische Weltreise"            
 description: "Eine kulinarische Weltreise. Ein Gericht für jede Woche."
-url: "https://jakobschumacher.github.io"      # The base URL for your site
-baseurl: "/kulinarische-weltreise"         # Used if your site is in a subdirectory
-lang: "de-DE"                              # Sets the language of the site
+url: "https://jakobschumacher.github.io"     
+baseurl: "/kulinarische-weltreise"         
+lang: "de-DE"                              
 author: "Jakob Schumacher"
 github_username: "jakobschumacher"
-paginate: 5                                # Number of posts per page for pagination
-paginate_path: "/page:num"                 # Path for pagination, e.g., /page2, /page3
 
-
-# GitHub settings
-github:
-  is_project_page: false  # Set to false to remove "View the Project on GitHub" link
-
-
-theme: jekyll-theme-minimal
-favicon: /favicon.ico
+favicon: favicon.png
 logo: /logo.webp
 
 

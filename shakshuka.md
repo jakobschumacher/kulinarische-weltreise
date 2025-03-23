@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Shakshuka
+nav-order: 1
 ---
 
 # Shakshuka
