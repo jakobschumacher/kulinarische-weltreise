@@ -12,10 +12,10 @@ website:
   title: "Kulinarische Weltreise"
   favicon: favicon.png
   description: "Eine kulinarische Weltreise. Ein Gericht für jede Woche."
-  sidebar:
-    style: "floating"
+  navbar:
+    # style: "floating"
     search: true
-    contents:
+    left:
       - text: Shakshuka
         href: shakshuka.qmd
       - text: Griechischer Salat mit gegrilltem Hähnchen
@@ -48,6 +48,9 @@ website:
 
 format:
   html:
+    css: styles.css
+    background-color: white
     theme:
-      light: flatly 
+      light: litera 
+
 

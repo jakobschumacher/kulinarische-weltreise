@@ -1,10 +1,9 @@
 
----
-title: Kulinarische Weltreise
-title-block-banner: true
----
+# Kulinarische Weltreise
+
 
 Entdecken Sie die Welt durch den Geschmack! Willkommen auf Ihrer kulinarischen Weltreise – ein Abenteuer für die Sinne, das Sie zu den faszinierendsten Küchen und Kulturen unseres Planeten führt. Von würzigen Couscous-Gerichten aus Marokko über die herzhaften Aromen eines französischen Ratatouille bis hin zu exotischen Currys aus Indien – jede Woche präsentieren wir Ihnen ein neues Rezept, das die Vielfalt und Schönheit der globalen Gastronomie feiert. Lassen Sie sich inspirieren, neue Zutaten auszuprobieren, spannende Geschichten hinter den Gerichten zu entdecken und Ihre eigene Reise durch die Welt des Essens zu beginnen. Tauchen Sie ein und erleben Sie, wie Essen verbindet, begeistert und Grenzen überwindet!
+
 
 ```{r karte}
 #| echo: false

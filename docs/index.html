@@ -40,13 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4735990c9a291889faddfe1de67c5ae7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-776483ff83b274032f0a3b03bac03140.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -80,178 +80,139 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Kulinarische Weltreise
-      </li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Kulinarische Weltreise</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./shakshuka.html"> 
+<span class="menu-text">Shakshuka</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./griechischer-salat-mit-gegrilltem-haehnchen.html"> 
+<span class="menu-text">Griechischer Salat mit gegrilltem Hähnchen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./indisches-dal-mit-reis.html"> 
+<span class="menu-text">Indisches Dal mit Reis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tapas.html"> 
+<span class="menu-text">Tapas und Tortilla</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./bobotie.html"> 
+<span class="menu-text">Bobotie</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./marokkanischer-gemuesecouscous.html"> 
+<span class="menu-text">Marokkanischer Gemüsecouscous</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./haehnchen-fajitas.html"> 
+<span class="menu-text">Hähnchen-Fajitas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pad-thai-mit-gemuese.html"> 
+<span class="menu-text">Pad Thai mit Gemüse</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sushi-bowl.html"> 
+<span class="menu-text">Sushi-Bowl</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./bibimbap.html"> 
+<span class="menu-text">Bibimbap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./karibisches-jerk-haehnchen.html"> 
+<span class="menu-text">Karibisches Jerk-Hähnchen mit Reis und Bohnen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ratatouille.html"> 
+<span class="menu-text">Ratatouille</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cevapcici.html"> 
+<span class="menu-text">Cevapcici mit Ajvar und Fladenbrot</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./suesskartoffel-kichererbsen-curry.html"> 
+<span class="menu-text">Süßkartoffel- und Kichererbsen-Curry</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Kulinarische Weltreise</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Autor:in</div>
-      <div class="quarto-title-meta-contents">
-               <p>Jakob Schumacher </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">23. März 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Kulinarische Weltreise</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Suchen"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./shakshuka.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Shakshuka</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./griechischer-salat-mit-gegrilltem-haehnchen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Griechischer Salat mit gegrilltem Hähnchen</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./indisches-dal-mit-reis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Indisches Dal mit Reis</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tapas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tapas und Tortilla</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bobotie.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bobotie</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./marokkanischer-gemuesecouscous.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Marokkanischer Gemüsecouscous</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./haehnchen-fajitas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hähnchen-Fajitas</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pad-thai-mit-gemuese.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pad Thai mit Gemüse</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sushi-bowl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sushi-Bowl</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bibimbap.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bibimbap</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./karibisches-jerk-haehnchen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Karibisches Jerk-Hähnchen mit Reis und Bohnen</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ratatouille.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ratatouille</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cevapcici.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cevapcici mit Ajvar und Fladenbrot</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./suesskartoffel-kichererbsen-curry.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Süßkartoffel- und Kichererbsen-Curry</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jakob Schumacher </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23. März 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="kulinarische-weltreise" class="level1">
+<h1>Kulinarische Weltreise</h1>
 <p>Entdecken Sie die Welt durch den Geschmack! Willkommen auf Ihrer kulinarischen Weltreise – ein Abenteuer für die Sinne, das Sie zu den faszinierendsten Küchen und Kulturen unseres Planeten führt. Von würzigen Couscous-Gerichten aus Marokko über die herzhaften Aromen eines französischen Ratatouille bis hin zu exotischen Currys aus Indien – jede Woche präsentieren wir Ihnen ein neues Rezept, das die Vielfalt und Schönheit der globalen Gastronomie feiert. Lassen Sie sich inspirieren, neue Zutaten auszuprobieren, spannende Geschichten hinter den Gerichten zu entdecken und Ihre eigene Reise durch die Welt des Essens zu beginnen. Tauchen Sie ein und erleben Sie, wie Essen verbindet, begeistert und Grenzen überwindet!</p>
 <div class="cell" data-page-layout="full">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-194872c06f8285ab5fe8" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-194872c06f8285ab5fe8">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[31.7917,33.8869,23.6345,20.5937,15.87,35.6895,37.9838,37.5665,18.1096,43.2965,44.7866,9.145,37.3833,-33.9249],[-7.0926,9.5375,-102.5528,78.9629,100.9925,139.6917,23.7275,126.978,-77.2975,5.3698,20.4489,40.4897,-5.9833,18.4241],8,null,null,{"interactive":true,"className":"","stroke":false,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.8},null,null,["<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/marokkanischer-gemuesecouscous.html'>Marokkanischer Gemüsecouscous<\/a><\/b><br>Marokko","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/shakshuka.html'>Shakshuka<\/a><\/b><br>Tunesien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/haehnchen-fajitas.html'>Hähnchen-Fajitas<\/a><\/b><br>Mexiko","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/indisches-dal-mit-reis.html'>Indisches Dal mit Reis<\/a><\/b><br>Indien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/pad-thai-mit-gemuese.html'>Pad Thai mit Gemüse<\/a><\/b><br>Thailand","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/sushi-bowl.html'>Sushi-Bowl<\/a><\/b><br>Japan","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/griechischer-salat-mit-gegrilltem-haehnchen.html'>Griechischer Salat mit gegrilltem Hähnchen<\/a><\/b><br>Griechenland","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/bibimbap.html'>Bibimbap<\/a><\/b><br>Südkorea","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/karibisches-jerk-haehnchen.html'>Karibisches Jerk-Hähnchen mit Reis und Bohnen<\/a><\/b><br>Jamaika","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/ratatouille.html'>Ratatouille<\/a><\/b><br>Frankreich","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/cevapcici.html'>Cevapcici mit Ajvar und Fladenbrot<\/a><\/b><br>Balkanregion","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/suesskartoffel-kichererbsen-curry.html'>Süßkartoffel- und Kichererbsen-Curry<\/a><\/b><br>Afrika und Indien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/tapas.html'>Tapas und Tortilla<\/a><\/b><br>Andalusien, Spanien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/bobotie.html'>Bobotie<\/a><\/b><br>Kapstadt, Südafrika"],null,["Marokkanischer Gemüsecouscous","Shakshuka","Hähnchen-Fajitas","Indisches Dal mit Reis","Pad Thai mit Gemüse","Sushi-Bowl","Griechischer Salat mit gegrilltem Hähnchen","Bibimbap","Karibisches Jerk-Hähnchen mit Reis und Bohnen","Ratatouille","Cevapcici mit Ajvar und Fladenbrot","Süßkartoffel- und Kichererbsen-Curry","Tapas und Tortilla","Bobotie"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-33.9249,44.7866],"lng":[-102.5528,139.6917]},"setView":[[30,20],2,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-be3c68794d07fdd9d2b4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-be3c68794d07fdd9d2b4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[31.7917,33.8869,23.6345,20.5937,15.87,35.6895,37.9838,37.5665,18.1096,43.2965,44.7866,9.145,37.3833,-33.9249],[-7.0926,9.5375,-102.5528,78.9629,100.9925,139.6917,23.7275,126.978,-77.2975,5.3698,20.4489,40.4897,-5.9833,18.4241],8,null,null,{"interactive":true,"className":"","stroke":false,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.8},null,null,["<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/marokkanischer-gemuesecouscous.html'>Marokkanischer Gemüsecouscous<\/a><\/b><br>Marokko","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/shakshuka.html'>Shakshuka<\/a><\/b><br>Tunesien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/haehnchen-fajitas.html'>Hähnchen-Fajitas<\/a><\/b><br>Mexiko","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/indisches-dal-mit-reis.html'>Indisches Dal mit Reis<\/a><\/b><br>Indien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/pad-thai-mit-gemuese.html'>Pad Thai mit Gemüse<\/a><\/b><br>Thailand","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/sushi-bowl.html'>Sushi-Bowl<\/a><\/b><br>Japan","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/griechischer-salat-mit-gegrilltem-haehnchen.html'>Griechischer Salat mit gegrilltem Hähnchen<\/a><\/b><br>Griechenland","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/bibimbap.html'>Bibimbap<\/a><\/b><br>Südkorea","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/karibisches-jerk-haehnchen.html'>Karibisches Jerk-Hähnchen mit Reis und Bohnen<\/a><\/b><br>Jamaika","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/ratatouille.html'>Ratatouille<\/a><\/b><br>Frankreich","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/cevapcici.html'>Cevapcici mit Ajvar und Fladenbrot<\/a><\/b><br>Balkanregion","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/suesskartoffel-kichererbsen-curry.html'>Süßkartoffel- und Kichererbsen-Curry<\/a><\/b><br>Afrika und Indien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/tapas.html'>Tapas und Tortilla<\/a><\/b><br>Andalusien, Spanien","<b><a href='https://jakobschumacher.github.io/kulinarische-weltreise/bobotie.html'>Bobotie<\/a><\/b><br>Kapstadt, Südafrika"],null,["Marokkanischer Gemüsecouscous","Shakshuka","Hähnchen-Fajitas","Indisches Dal mit Reis","Pad Thai mit Gemüse","Sushi-Bowl","Griechischer Salat mit gegrilltem Hähnchen","Bibimbap","Karibisches Jerk-Hähnchen mit Reis und Bohnen","Ratatouille","Cevapcici mit Ajvar und Fladenbrot","Süßkartoffel- und Kichererbsen-Curry","Tapas und Tortilla","Bobotie"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-33.9249,44.7866],"lng":[-102.5528,139.6917]},"setView":[[30,20],2,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
